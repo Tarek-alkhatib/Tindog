@@ -1,0 +1,182 @@
+/* Tag Selectors */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: auto;
+}
+
+P {
+  color: #bfbfbf;
+}
+
+
+  /* ID Selectors */
+  #title {
+    background-color: #FF4C68;
+    color: white;
+  }
+
+  #features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+  }
+
+  #testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+  }
+
+  #press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+
+  #cta {
+    background-color: #FF4C68;
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  #footer {
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+
+
+/* Class Selectors */
+
+/* Headings */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.section-heading{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+  .image-mockup {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+  }
+
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .navbar {
+    padding-bottom: 4.5rem;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  }
+
+  .Download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  .features-icon {
+    color: #cf8172;
+    margin-bottom: 1rem;
+  }
+
+  .features-icon:hover {
+    color: #ff4c68;
+  }
+
+/* Testimonials section */
+.testimonial-text{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+/* Pricing Section */
+
+  .pricing-col {
+    padding: 3% 2%;
+  }
+  .price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+  .cta-title {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+  }
+
+  .sm-icons {
+    padding: 1%;
+  }
+
+  @media (max-width:1028px) {
+    .image-mockup {
+      width: 50%;
+      transform: rotate(0deg);
+      position: static;
+      right: 25%;
+    }
+
+    #title {
+      text-align: center;
+    }
+
+    .container-fluid {
+      padding: 3% 0%;
+    }
+  }
